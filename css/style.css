@@ -95,6 +95,7 @@
     padding-top: 200px;
 }
 
+
 .sec2-heading {
     color: black;
     font-size: 50px;
@@ -109,6 +110,10 @@
 }
 
 .sec-2-img {
+    overflow: visible;
+    position: relative;
+}
+.sec-2-bgimg{
     overflow: visible;
     position: relative;
 }
