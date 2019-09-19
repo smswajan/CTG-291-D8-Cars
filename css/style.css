@@ -125,8 +125,8 @@ img.tog-img {
 img.img-bg-3cars {
     position: absolute;
     top: -16%;
-    transform: scale(0.75);
-    left: -38%;
+    transform: scale(0.70);
+    left: -53%;
     z-index: 1;
 }
 
