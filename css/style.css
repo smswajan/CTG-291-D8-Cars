@@ -1,0 +1,159 @@
+.banner {
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: fixed;
+}
+
+.navigation {
+    padding: 40px 0;
+    margin-bottom: 60px;
+}
+
+.logo {
+    height: 4em;
+}
+
+/* Navigation */
+.breadcrumb {
+    background-color: transparent;
+    margin: 0;
+}
+
+.breadcrumb-item {
+    color: white;
+}
+
+.breadcrumb-item a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 42px;
+    transition: all .2s ease;
+}
+
+.breadcrumb-item a:hover {
+    padding-bottom: 4px;
+    border-bottom: 2px solid white;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #d6d6d6;
+    content: "/";
+}
+
+/* banner body */
+.banner-heading {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 14px 18px;
+}
+
+.banner-paragraph {
+    color: white;
+    margin-bottom: 52px;
+}
+
+.white-line {
+    display: block;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.sample-btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.cta-btn {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 12px 62px;
+    transition: all .3s ease;
+}
+
+.cta-btn:hover {
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+/* section two */
+.section {
+    padding: 80px 0;
+    background-color: #f6f6f6;
+}
+
+.section-two {
+    padding-top: 200px;
+}
+
+.sec2-heading {
+    color: black;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.black-line {
+    display: block;
+    color: black;
+    margin-bottom: 32px;
+}
+
+.sec-2-img {
+    overflow: visible;
+    position: relative;
+}
+
+img.tog-img {
+    display: none;
+}
+
+img.img-bg-3cars {
+    position: absolute;
+    top: -16%;
+    transform: scale(0.75);
+    left: -38%;
+    z-index: 1;
+}
+
+.img-2 {
+    z-index: 3;
+}
+
+/* Section 3 */
+.section-three {
+    padding: 80px 0;
+    background-color: #1d1d1d;
+}
+
+.secthree-heading {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.section-three__img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* footer */
+footer {
+    padding: 25px 0;
+    background-color: #f23e2c;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin: 0;
+}

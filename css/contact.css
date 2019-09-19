@@ -1,0 +1,49 @@
+h1 {
+    text-transform: uppercase;
+}
+
+
+
+.jumbotron {
+    background-color: #F14838;
+    margin-bottom: 0;
+}
+
+
+.input-box {
+    background-color: #FF6153;
+    border: none;
+    outline: none;
+    padding: 26px 12px;
+    border-radius: 0;
+}
+
+.input-box:hover,
+.input-box:focus {
+    background-color: rgb(255, 85, 70);
+    color: whitesmoke;
+    border: none;
+    outline: none;
+}
+
+.btn-submit {
+    background-color: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Cookie', cursive;
+    font-size: 42px;
+    transition: all .2s ease;
+
+}
+
+.btn-submit:hover {
+    color: rgb(212, 212, 212);
+    transform: translateY(-3px);
+}
+
+.btn-submit:active {
+    transform: translateY(0);
+    color: white;
+}
